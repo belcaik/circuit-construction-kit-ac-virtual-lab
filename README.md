@@ -34,8 +34,6 @@ git clone https://github.com/phetsims/bamboo.git
 git clone https://github.com/phetsims/brand.git
 git clone https://github.com/phetsims/chipper.git
 git clone https://github.com/phetsims/circuit-construction-kit-ac.git
-git clone https://github.com/phetsims/circuit-construction-kit-ac-virtual-lab.git
-git clone https://github.com/phetsims/circuit-construction-kit-common.git
 git clone https://github.com/phetsims/dot.git
 git clone https://github.com/phetsims/griddle.git
 git clone https://github.com/phetsims/joist.git
@@ -53,6 +51,8 @@ git clone https://github.com/phetsims/tambo.git
 git clone https://github.com/phetsims/tandem.git
 git clone https://github.com/phetsims/twixt.git
 git clone https://github.com/phetsims/utterance-queue.git
+git clone https://github.com/belcaik/circuit-construction-kit-ac-virtual-lab.git
+git clone https://github.com/belcaik/circuit-construction-kit-common.git
 ```
 
 (2) Install dev dependencies:
@@ -68,7 +68,7 @@ npm install
 
 (3) Run `grunt dev-server` to start a local development server that will serve the simulation.
 
-(4) Open in the browser: `http://localhost/circuit-construction-kit-ac-virtual-lab/circuit-construction-kit-ac-virtual-lab_en.html`
+(4) Open in the browser: `http://localhost:3000/circuit-construction-kit-ac-virtual-lab/circuit-construction-kit-ac-virtual-lab_en.html`
 
 #### Optional: Build the simulation into a single file
 
